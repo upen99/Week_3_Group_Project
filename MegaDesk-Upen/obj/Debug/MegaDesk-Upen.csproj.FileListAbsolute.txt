@@ -1,0 +1,13 @@
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.exe.config
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.exe
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.pdb
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.Properties.Resources.resources
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csproj.GenerateResource.cache
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csproj.CoreCompileInputs.cache
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.exe
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.pdb
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.MainMenu.resources
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csprojAssemblyReference.cache
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.ViewAllQuotes.resources
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.AddNewQuote.resources
+C:\Users\upen\source\repos\MegaDesk-Upen\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.SearchQuotes.resources
