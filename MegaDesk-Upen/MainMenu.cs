@@ -12,9 +12,11 @@ namespace MegaDesk_Upen
 {
     public partial class MainMenu : Form
     {
+        
         public MainMenu()
         {
             InitializeComponent();
+           
         }
 
         private void BtnAddNewQuote_Click(object sender, EventArgs e)
