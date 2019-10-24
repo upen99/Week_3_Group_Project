@@ -5,23 +5,32 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MegaDesk_Upen;
 
 namespace MegaDesk_Upen
 {
     public partial class AddNewQuote : Form
     {
 
-        MainMenu mainMenu;
+        private Form _mainMenu;
        
 
-        public AddNewQuote(MainMenu mainMenuForm)
+        public AddNewQuote(Form MainMenu)
         {
             InitializeComponent();
+            _mainMenu = MainMenu;
 
-            //TODO: need to load surface material dropdpown from enum
-            //TODO: need to load shipping dropdown from enum
+            // populate materials combobox
+
+           var materials = Enum.GetValues(typeof(Surface))
+                            .Cast<Surface>()
+                            .ToList();
+
+            cmbSurfaceMaterial.DataSource = materials;
+            cmbSurfaceMaterial.SelectedIndex = -1;
 
         }
 
@@ -48,7 +57,7 @@ namespace MegaDesk_Upen
             desk.SurfaceMaterial = (Surface)cmbSurfaceMaterial.SelectedItem;
 
             // STEP 2: create a DeskQuote object and set all of its properties
-            var deskQuote = new DeskQuotes();
+            var deskQuote = new DeskQuote();
             deskQuote.CustomerName = txtCustomerName.Text;
             deskQuote.ShippingType = (Shipping)cmbDelivery.SelectedItem;
             deskQuote.QuoteDate = DateTime.Now;
@@ -60,6 +69,11 @@ namespace MegaDesk_Upen
 
 
             // STEP 4: write a new quote to the JSON file
+
+        }
+
+        private void cmbSurfaceMaterial_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

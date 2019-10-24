@@ -30,9 +30,9 @@
         {
             this.btnAddNewQuote = new System.Windows.Forms.Button();
             this.btnViewQuotes = new System.Windows.Forms.Button();
-            this.btnSearchQuotes = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSearchQuote = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,16 +56,6 @@
             this.btnViewQuotes.UseVisualStyleBackColor = true;
             this.btnViewQuotes.Click += new System.EventHandler(this.BtnViewQuotes_Click);
             // 
-            // btnSearchQuotes
-            // 
-            this.btnSearchQuotes.Location = new System.Drawing.Point(68, 239);
-            this.btnSearchQuotes.Name = "btnSearchQuotes";
-            this.btnSearchQuotes.Size = new System.Drawing.Size(226, 69);
-            this.btnSearchQuotes.TabIndex = 2;
-            this.btnSearchQuotes.Text = "Search Quotes";
-            this.btnSearchQuotes.UseVisualStyleBackColor = true;
-            this.btnSearchQuotes.Click += new System.EventHandler(this.BtnSearchQuotes_Click);
-            // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(68, 341);
@@ -85,14 +75,24 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // btnSearchQuote
+            // 
+            this.btnSearchQuote.Location = new System.Drawing.Point(68, 230);
+            this.btnSearchQuote.Name = "btnSearchQuote";
+            this.btnSearchQuote.Size = new System.Drawing.Size(226, 69);
+            this.btnSearchQuote.TabIndex = 5;
+            this.btnSearchQuote.Text = "Search Quotes";
+            this.btnSearchQuote.UseVisualStyleBackColor = true;
+            this.btnSearchQuote.Click += new System.EventHandler(this.btnSearchQuote_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSearchQuote);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnSearchQuotes);
             this.Controls.Add(this.btnViewQuotes);
             this.Controls.Add(this.btnAddNewQuote);
             this.Name = "MainMenu";
@@ -106,9 +106,9 @@
 
         private System.Windows.Forms.Button btnAddNewQuote;
         private System.Windows.Forms.Button btnViewQuotes;
-        private System.Windows.Forms.Button btnSearchQuotes;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnSearchQuote;
     }
 }
 

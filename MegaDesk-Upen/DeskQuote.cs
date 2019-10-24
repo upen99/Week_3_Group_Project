@@ -14,10 +14,10 @@ namespace MegaDesk_Upen
         NoRush
     }
 
-   public class DeskQuotes
+   public class DeskQuote
     {
         int[,] _rushOrderPrices;
-        public DeskQuotes()
+        public DeskQuote()
         {
             //TODO: load rush order shipping costs from rushOrderPrices.txt file into _rushOrderPrices
 

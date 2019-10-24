@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MegaDesk_Upen
 {
-    public enum Surface {
+    public enum Surface
+    {
         Oak,
         Laminate,
         Pine,
@@ -15,7 +16,7 @@ namespace MegaDesk_Upen
     }
 
 
-   public class Desk
+    public class Desk
     {
         public decimal Width { get; set; }
 
@@ -24,6 +25,5 @@ namespace MegaDesk_Upen
         public Surface SurfaceMaterial { get; set; }
 
         public int NumberOfDrawers { get; set; }
-
     }
 }

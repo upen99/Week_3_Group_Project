@@ -23,3 +23,17 @@ C:\Users\User\source\repos\Week_3_Group_Project\MegaDesk-Upen\obj\Debug\MegaDesk
 C:\Users\User\source\repos\Week_3_Group_Project\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Week_3_Group_Project\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.exe
 C:\Users\User\source\repos\Week_3_Group_Project\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.pdb
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.AddNewQuote.resources
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.MainMenu.resources
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.Properties.Resources.resources
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.SearchQuotes.resources
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk_Upen.ViewAllQuotes.resources
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csproj.GenerateResource.cache
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.exe
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.pdb
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.exe.config
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.exe
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\bin\Debug\MegaDesk-Upen.pdb
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\bin\Debug\Newtonsoft.Json.dll
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\bin\Debug\Newtonsoft.Json.xml
+C:\Users\upen\Documents\GitHub\Week Three\MegaDesk-Upen\obj\Debug\MegaDesk-Upen.csproj.CopyComplete

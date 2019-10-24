@@ -23,7 +23,7 @@ namespace MegaDesk_Upen
         {
 
             //create and show Add Quote form
-            var addQuote = new AddNewQuote();
+            var addQuote = new AddNewQuote(this);
             addQuote.Tag = this;
             addQuote.Show();
 
@@ -38,15 +38,18 @@ namespace MegaDesk_Upen
             viewAllQuotes.Show();
         }
 
-        private void BtnSearchQuotes_Click(object sender, EventArgs e)
+        private void btnSearchQuote_Click(object sender, EventArgs e)
         {
-            var SearchQuotes = new ViewAllQuotes(this);
-            SearchQuotes.Show();
+            var searchQuotes = new SearchQuotes(this);
+            searchQuotes.Show();
+          
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+       
     }
 }
