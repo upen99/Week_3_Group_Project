@@ -23,7 +23,7 @@ namespace MegaDesk_Upen
         {
 
             //create and show Add Quote form
-            var addQuote = new AddNewQuote();
+            var addQuote = new AddNewQuote(this);
             addQuote.Tag = this;
             addQuote.Show();
 

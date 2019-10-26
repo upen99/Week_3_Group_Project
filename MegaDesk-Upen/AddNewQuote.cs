@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace MegaDesk_Upen
 {
@@ -58,9 +60,83 @@ namespace MegaDesk_Upen
             deskQuote.QuotePrice = deskQuote.GetQuotePrice();
 
 
-
+        }
             // STEP 4: write a new quote to the JSON file
+            public void AddQuoteToFile(DeskQuotes deskQuote)
 
+            {
+
+                var quotesFile = @"quotes.json";
+
+                List<DeskQuotes> deskQuotes = new List<DeskQuotes>();
+
+
+
+                // read existing quotes
+
+                if (File.Exists(quotesFile))
+
+                {
+
+                    using (StreamReader reader = new StreamReader(quotesFile))
+
+                    {
+
+                        // load existing quotes
+
+                        string quotes = reader.ReadToEnd();
+
+
+
+                        if (quotes.Length > 0)
+
+                        {
+
+                            // deserialize quotes
+
+                            deskQuotes = JsonConvert.DeserializeObject<List<DeskQuotes>>(quotes);
+
+                        }
+
+                    }
+
+                }
+
+
+
+                // add a new quote
+
+                deskQuotes.Add(deskQuote);
+
+
+
+                // save to file
+
+                SaveQuotes(deskQuotes);
+
+            }
+
+
+
+            private void SaveQuotes(List<DeskQuotes> quotes)
+
+            {
+
+                var quotesFile = @"quotes.json";
+
+
+
+                // serilize quotes
+
+                var serializedQuotes = JsonConvert.SerializeObject(quotes);
+
+
+
+                // write quotes to file
+
+                File.WriteAllText(quotesFile, serializedQuotes);
+
+            }
         }
     }
-}
+

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MegaDesk_Upen
-{ 
+{
     public enum Shipping
     {
         Rush3Day,
@@ -14,14 +15,51 @@ namespace MegaDesk_Upen
         NoRush
     }
 
-   public class DeskQuotes
+    public class DeskQuotes
     {
-        int[,] _rushOrderPrices;
+        int[,] rushOrderPrices;
         public DeskQuotes()
         {
             //TODO: load rush order shipping costs from rushOrderPrices.txt file into _rushOrderPrices
 
         }
+
+        private void getRushOrderPrices() {
+
+            rushOrderPrices = new int[3, 3];
+
+            var pricesFile = @"rushOrderPrices.txt";
+            try
+            {
+                string[] prices = File.ReadAllLines(pricesFile);
+                int i = 0, j = 0;
+
+
+                foreach (string price in prices)
+                    rushOrderPrices[i, j] = int.Parse(price);
+
+                if (j == 2)
+
+                {
+                    i++;
+                    j = 0;
+                }
+                else
+                {
+                    j++;
+                }
+
+            }
+            catch (Exception e)
+
+            {
+                throw;
+                }
+
+        }
+    
+
+
 
         // declare const
         const decimal BASE_PRICE = 200.00M;
