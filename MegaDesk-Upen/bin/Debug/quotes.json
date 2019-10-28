@@ -6,7 +6,7 @@
       [ 30, 35, 40 ]
     ],
     "CustomerName": "Brian",
-    "ShippingDays": 0,
+    "ShippingDays": 10,
     "QuoteDate": "2019-11-25T13:40:20.0566051-06:00",
     "Quote": 740.0,
     "ShippingCost": 40.0,
