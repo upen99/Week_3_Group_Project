@@ -56,7 +56,7 @@
       <DependentUpon>AddNewQuote.cs</DependentUpon>
     </Compile>
     <Compile Include="Desk.cs" />
-    <Compile Include="DeskQuotes.cs" />
+    <Compile Include="DeskQuote.cs" />
     <Compile Include="DisplayQuote.cs">
       <SubType>Form</SubType>
     </Compile>
